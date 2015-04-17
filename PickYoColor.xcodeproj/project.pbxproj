@@ -13,6 +13,7 @@
 		91A2A94F1AE16E780041B55D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91A2A94E1AE16E780041B55D /* Images.xcassets */; };
 		91A2A9521AE16E780041B55D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91A2A9501AE16E780041B55D /* LaunchScreen.xib */; };
 		91A2A95E1AE16E780041B55D /* PickYoColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A2A95D1AE16E780041B55D /* PickYoColorTests.swift */; };
+		91A2A9681AE170530041B55D /* ColorSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91A2A9671AE170530041B55D /* ColorSelectViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		91A2A9571AE16E780041B55D /* PickYoColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickYoColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91A2A95C1AE16E780041B55D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		91A2A95D1AE16E780041B55D /* PickYoColorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickYoColorTests.swift; sourceTree = "<group>"; };
+		91A2A9671AE170530041B55D /* ColorSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorSelectViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				91A2A9471AE16E780041B55D /* AppDelegate.swift */,
 				91A2A9491AE16E780041B55D /* ViewController.swift */,
 				91A2A94B1AE16E780041B55D /* Main.storyboard */,
+				91A2A9671AE170530041B55D /* ColorSelectViewController.swift */,
 				91A2A94E1AE16E780041B55D /* Images.xcassets */,
 				91A2A9501AE16E780041B55D /* LaunchScreen.xib */,
 				91A2A9451AE16E780041B55D /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91A2A9681AE170530041B55D /* ColorSelectViewController.swift in Sources */,
 				91A2A94A1AE16E780041B55D /* ViewController.swift in Sources */,
 				91A2A9481AE16E780041B55D /* AppDelegate.swift in Sources */,
 			);
